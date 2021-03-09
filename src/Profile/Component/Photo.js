@@ -1,9 +1,9 @@
 import React from "react";
 
-import image from "../images/imageprof.jpg";
+import image from "../image/imageprof.jpg"
 
 
-export default function ProfilPhoto() {
+export default function ProfilPhoto(props) {
   return (
     <>
 

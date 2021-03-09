@@ -1,5 +1,5 @@
 import FullName from "./Profile/Component/FullName";
-
+import Bio from "./Profile/Component/Bio"
 import "./styles.css";
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
 
 <FullName name="Yasmine Souissi">
   </FullName>  
- 
+  <Bio text="Web Developer"/>
 
 
 </div>
