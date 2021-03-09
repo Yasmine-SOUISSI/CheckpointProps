@@ -1,7 +1,7 @@
 import FullName from "./Profile/Component/FullName";
 import Bio from "./Profile/Component/Bio"
 import "./styles.css";
-
+import image from "./Profile/image/imageprof.jpg"
 export default function App() {
   return (
     <>
@@ -11,6 +11,8 @@ export default function App() {
 <div className="card-body"> 
 
 <FullName name="Yasmine Souissi">
+<img src={image} alt="PhotoProfil"
+     width="220" className="img"/>
   </FullName>  
   <Bio text="Web Developer"/>
 
