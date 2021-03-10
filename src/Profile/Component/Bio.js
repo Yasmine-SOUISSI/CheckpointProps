@@ -13,7 +13,7 @@ Bio.propTypes = {
   text: PropTypes.string
 };
 
-Greeting.defaultProps = {
-  name: 'Default'
+Bio.defaultProps = {
+  text: 'Default'
 };
 
