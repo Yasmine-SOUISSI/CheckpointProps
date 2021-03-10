@@ -1,6 +1,10 @@
 import React from "react";
-
+import PropTypes from 'prop-types';
 export default function FullName(props) {
+  const styleName={
+fontSize:"16px",
+marginBottom: "20px",
+}
   return (
     <div>
       {props.children}
@@ -8,3 +12,10 @@ export default function FullName(props) {
     </div>
   );
 }
+FullName.propTypes = {
+  name: PropTypes.string
+};
+
+FullName.defaultProps = {
+  name: 'Default'
+};
