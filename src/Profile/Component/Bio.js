@@ -1,6 +1,5 @@
 import React from "react";
-
-
+import PropTypes from "prop-types"
 export default function Bio(props) {
   return (
     <div>
@@ -9,3 +8,12 @@ export default function Bio(props) {
     </div>
   );
 }
+
+Bio.propTypes = {
+  text: PropTypes.string
+};
+
+Greeting.defaultProps = {
+  name: 'Default'
+};
+
