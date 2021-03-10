@@ -5,8 +5,11 @@ export default function FullName(props) {
 fontSize:"16px",
 marginBottom: "20px",
 }
+  fonction handleName(e)
+  { e.preventDefault();
+   alert(props.name)}
   return (
-    <div style={styleName}>
+    <div style={styleName} onMouseMove={handleName}>
       {props.children}
       <h1> {props.name}</h1>
     </div>
