@@ -6,7 +6,7 @@ fontSize:"16px",
 marginBottom: "20px",
 }
   return (
-    <div>
+    <div style={styleName}>
       {props.children}
       <h1> {props.name}</h1>
     </div>
