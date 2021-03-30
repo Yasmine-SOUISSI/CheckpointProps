@@ -2,12 +2,9 @@ import React from "react";
 import PropTypes from 'prop-types';
 export default function FullName(props) {
   const styleName={fontSize:"16px",marginBottom: "20px"}
-   const handleName=e =>
-  { e.preventDefault();
-   alert(props.name);
-  };
+
   return (
-    <div style={styleName} onMouseMove={handleName}>
+    <div style={styleName} onMouseMove={props.handleName}>
       {props.children}
       <h1> {props.name}</h1>
     </div>
