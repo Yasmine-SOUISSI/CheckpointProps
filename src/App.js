@@ -3,6 +3,10 @@ import Bio from "./Profile/Component/Bio"
 import "./styles.css";
 import image from "./Profile/image/imageprof.jpg"
 export default function App() {
+     const handleName=e =>
+  { e.preventDefault();
+   alert(props.name);
+  };
   return (
     <>
     <section>
